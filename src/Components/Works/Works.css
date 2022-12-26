@@ -1,0 +1,21 @@
+.works__works{
+    color:var(--secondary_fontColor);
+}
+.works__heading{
+    margin-bottom: 25px;
+}
+
+.works__list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.works__container{
+    padding-top: 5rem;
+    padding-bottom: 10vh;
+}
+@media screen and (min-width: 780px) {
+
+}

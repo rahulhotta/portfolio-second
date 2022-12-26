@@ -1,0 +1,75 @@
+.navBar__container {
+  position: fixed;
+  right: 6%;
+  bottom: 5%;
+  z-index: 100;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  height: 42px;
+  font-family: "Signika", sans-serif;
+  box-shadow: 10px 10px 30px rgba(187, 237, 255, 0.5);
+  /* overflow-y: hidden ; */
+}
+
+.navBar__icon {
+  display: flex;
+  text-decoration: none;
+  color: var(--primary_fontColor);
+  background-color: black;
+  font-size: 1.8rem;
+  border: 4px solid white;
+  border-radius: 50px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+
+.navBar__link:hover .navBar__icon {
+  background-color: var(--secondary_fontColor);
+  border: 4px solid var(--primary_bgColor);
+  color: var(--tertiary_fontColor);
+  /* transform: translateY(-15px);
+  transition: transform 0.4s ease; */
+}
+.navBar__text {
+  color: black;
+  font-weight: 500;
+  position: fixed;
+  top: 30px;
+  opacity: 0;
+  font-size: 0.9rem;
+}
+.navBar__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.active .navBar__icon {
+  background-color: var(--secondary_fontColor);
+  border: 4px solid var(--primary_bgColor);
+  color: var(--tertiary_fontColor);
+  transform: translateY(-20px);
+  transition: transform 0.4s ease;
+}
+
+.active .navBar__text {
+  opacity: 1;
+}
+@media screen and (min-width: 990px) {
+  .navBar__container {
+    left: 45%;
+    width: 30vw;
+  }
+  .navBar__text {
+    font-size: 0.97rem;
+  }
+}

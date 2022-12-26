@@ -1,0 +1,26 @@
+
+
+.about__heading {
+  font-size: 2.9rem;
+  margin-bottom: 15px;
+}
+.about__me {
+  color: var(--secondary_fontColor);
+  /* text-decoration: underline;
+  text-decoration-color: var(--secondary_fontColor);
+  text-decoration-style:wavy ; */
+}
+.about__desc {
+  width: 80%;
+  margin: 3% 0;
+  font-size: 1.6rem;
+}
+
+.about__card {
+  margin: 3% 0;
+  width: 80%;
+}
+
+@media screen and (min-width: 780px) {
+  
+}
