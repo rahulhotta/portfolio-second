@@ -8,7 +8,7 @@ function About() {
         About <span className="about__me">Me </span>
       </h1>
       <h3 className="about__desc all__desc">
-        I am Rahul kumar hotta a web developer focused on crafting clean and
+        I am Rahul Hotta a web developer focused on crafting clean and
         user-friendly experiences, I am passionate about building excellent
         software that improves the lives of those around me.
       </h3>

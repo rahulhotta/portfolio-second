@@ -8,7 +8,7 @@ function Home() {
       </h1>
       <h4 className="home__my-position2 all__desc">
         A web developer who likes to craft solid and scalable front end products
-        with greate user experiences.
+        with great user experiences.
       </h4>
     </div>
   );

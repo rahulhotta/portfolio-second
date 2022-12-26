@@ -9,6 +9,7 @@
   align-items: center;
   text-align: left;
   flex-direction: column;
+  background-color: var(--card_bg);
   box-shadow: 7px 7px 20px rgba(207, 241, 253, 0.5);
 }
 .card__container:hover{
@@ -22,6 +23,8 @@
 }
 
 .card__site-img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   width: 80vw;
   margin: 0;
 }
@@ -80,7 +83,7 @@
     width: 400px;
     height: 200px;
     display: none;
-    background: rgba(147, 255, 255, 0.5);
+    background: rgba(81, 223, 255, 0.3);
     margin: 0;
   }
 
@@ -90,7 +93,7 @@
     font-size: 1.5rem;
   }
   .card__icon:hover {
-    color: blue;
+    color: rgb(0, 0, 52);
   }
   .card__header:hover .card__site-img {
     display: none;

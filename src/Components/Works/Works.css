@@ -1,9 +1,7 @@
 .works__works{
     color:var(--secondary_fontColor);
 }
-.works__heading{
-    margin-bottom: 25px;
-}
+
 
 .works__list{
     display: flex;
@@ -13,8 +11,8 @@
     margin: auto;
 }
 .works__container{
-    padding-top: 5rem;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 @media screen and (min-width: 780px) {
 

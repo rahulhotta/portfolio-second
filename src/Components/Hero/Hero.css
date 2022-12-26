@@ -7,15 +7,18 @@ a {
   display: flex;
   flex-direction: column;
   font-family: 'Signika', sans-serif;
+  
 }
 .hero__left {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 15vh;
-  background-color: var(--secondary_bgColor);
+  /* background-color: var(--secondary_bgColor); */
+  background-image: var(--secondary_bgColor);
   border-bottom-left-radius: 50vw;
   border-bottom-right-radius: 50vw;
+  box-shadow: 10px 10px 30px rgba(17, 17, 17, 0.7);
 }
 .hero__avatar {
   height: 7rem;
@@ -28,7 +31,6 @@ a {
 
 .hero__avatar:hover{
   border: 2px solid var(--secondary_fontColor);
-  transform:scale(1.3);
 }
 .hero__social-icon {
   margin: 10px;
@@ -69,6 +71,7 @@ a {
 @media screen and (min-width: 780px) {
 .hero__container {
   position: fixed;
+  left: 17px;
   display: flex;
   flex-direction: column;
   height: 99vh;
