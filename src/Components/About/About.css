@@ -1,6 +1,6 @@
 
 .about__container{
-  min-height: 85vh;
+  min-height: 68vh;
   padding-top: 2vh;
 }
 .about__heading {
@@ -25,5 +25,7 @@
 }
 
 @media screen and (min-width: 780px) {
-  
+  .about__container{
+  min-height: 85vh;
+}
 }

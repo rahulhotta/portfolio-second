@@ -11,6 +11,8 @@
   flex-direction: column;
   background-color: var(--card_bg);
   box-shadow: 7px 7px 20px rgba(207, 241, 253, 0.5);
+  transition        : all .3s ease;
+  -webkit-transition: all .3s ease;
 }
 .card__container:hover{
   transition: .3s;
@@ -31,7 +33,7 @@
 
 .card__link {
   margin: 10px 20px;
-  background-color: black;
+  background-color: var(--card_bg);
   border: 2px solid white;
   color: white;
   padding: 5px 10px;
@@ -41,7 +43,7 @@
 
 .card__link:hover {
   background-color: white;
-  color: black;
+  color: var(--card_bg);
 }
 
 .card__heading {
@@ -96,6 +98,7 @@
     color: rgb(0, 0, 52);
   }
   .card__header:hover .card__site-img {
+  
     display: none;
   }
   .card__header:hover .card__icon-container {

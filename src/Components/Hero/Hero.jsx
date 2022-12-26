@@ -6,6 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { VscGithubInverted } from "react-icons/vsc";
 import { FiMail } from "react-icons/fi";
 
+
 function Hero() {
   return (
     <div className="hero__container ">

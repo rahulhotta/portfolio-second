@@ -1,11 +1,18 @@
-import React from "react";
+import {React,useEffect} from "react";
 import "./Works.css";
 import expenseTracker from "../../Images/expense-tracker.jpg";
 import foodOrderApp from "../../Images/food-order-app.jpg";
 import libot from "../../Images/Libot.jpg";
 import notes from "../../Images/Notes-app.jpg";
 import CardUi from "../CardUi/CardUi";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
 function Works() {
+  useEffect(() => {
+    AOS.init(400);
+  }, []);
   const worksData = [
     {
       id: 1,
@@ -51,14 +58,16 @@ function Works() {
       <div className="works__list">
         {worksData.map((work) => {
           return (
-            <CardUi
-              title={work.title}
-              img={work.img}
-              description={work.description}
-              Link={work.Link}
-              Git={work.Git}
-              key={work.id}
-            />
+            <div data-aos="fade-up">
+              <CardUi
+                title={work.title}
+                img={work.img}
+                description={work.description}
+                Link={work.Link}
+                Git={work.Git}
+                key={work.id}
+              />
+            </div>
           );
         })}
 

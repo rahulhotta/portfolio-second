@@ -1,31 +1,37 @@
 import "./App.css";
-
+import { React, useEffect } from "react";
 import Hero from "./Components/Hero/Hero";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import NavBar from "./Components/NavBar/NavBar";
-import Contact from "./Components/Contact/Contact";
+// import Contact from "./Components/Contact/Contact";
 import Works from "./Components/Works/Works";
 import Skills from "./Components/Skills/Skills";
-import { Route, Routes } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-const navTitles = ["home", "about", "works", "contact"];
 
 function App() {
+  useEffect(() => {
+    AOS.init(400);
+  }, []);
+
+
   return (
     <div className="App">
-      <div id="home">
+      <div id="home" >
         <Hero />
         <Home />
       </div>
-      <div id="about">
+      <div id="about" data-aos="fade-up">
         <About />
       </div>
-      <div id="skills">
+      <div id="skills" data-aos="fade-up">
         <Skills />
       </div>
-      <div id="works">
-        <Works  />
+      <div id="works" data-aos="fade-up">
+        <Works />
       </div>
       {/* <div id="contact">
         <Contact  />
