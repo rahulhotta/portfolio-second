@@ -14,7 +14,7 @@ function NavBar() {
           to="home"
           spy={true}
           smooth={true}
-          duration={500}
+          duration={800}
           activeClassName="active"
         >
           <AiFillHome className="navBar__icon" />
@@ -26,7 +26,7 @@ function NavBar() {
           to="about"
           spy={true}
           smooth={true}
-          duration={500}
+          duration={800}
           activeClassName="active"
         >
           <BsFillPersonFill className="navBar__icon" />
@@ -38,7 +38,8 @@ function NavBar() {
           to="skills"
           spy={true}
           smooth={true}
-          duration={500}
+          offset={50}
+          duration={800}
           activeClassName="active"
         >
           <MdDesignServices className="navBar__icon" />
@@ -51,7 +52,7 @@ function NavBar() {
           spy={true}
           smooth={true}
           offset={50}
-          duration={500}
+          duration={800}
           activeClassName="active"
         >
           <MdWork className="navBar__icon" />

@@ -34,8 +34,8 @@
 
 .navBar__link:hover .navBar__icon {
   background-color: var(--secondary_fontColor);
-  border: 4px solid var(--primary_bgColor);
-  color: var(--tertiary_fontColor);
+  border: 4px solid rgb(0, 0, 56);
+  color: white;
   /* transform: translateY(-15px);
   transition: transform 0.4s ease; */
 }
@@ -55,8 +55,8 @@
 }
 .active .navBar__icon {
   background-color: var(--secondary_fontColor);
-  border: 4px solid var(--primary_bgColor);
-  color: var(--tertiary_fontColor);
+  border: 4px solid rgb(0, 0, 56);
+  color: var(--primary_fontColor);
   transform: translateY(-20px);
   transition: transform 0.4s ease;
 }

@@ -10,8 +10,8 @@ img{
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400&display=swap');
 :root {
   
-  --secondary_bgColor: linear-gradient(to bottom right,rgb(76, 54, 54),rgb(0, 0, 56),rgb(0, 0, 56));
-  --secondary_fontColor: rgb(132, 208, 244);
+  --secondary_bgColor: linear-gradient(to bottom right,rgb(151, 75, 0),rgb(0, 0, 56),rgb(0, 0, 56),rgb(0, 0, 56));
+  --secondary_fontColor: rgb(245,138,30);
   --primary_fontColor: white;
   --tertiary_fontColor: black;
   --primary_bgColor: rgb(56,50,90);

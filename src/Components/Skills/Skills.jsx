@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 
 function Skills() {
   useEffect(() => {
-    AOS.init(400);
+    AOS.init(800);
   }, []);
   return (
     <div className="skills__container container">

@@ -14,7 +14,7 @@ import "aos/dist/aos.css";
 
 function App() {
   useEffect(() => {
-    AOS.init(400);
+    AOS.init(800);
   }, []);
 
 

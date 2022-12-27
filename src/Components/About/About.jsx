@@ -5,7 +5,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 function About() {
   useEffect(() => {
-    AOS.init(700);
+    AOS.init(800);
   }, []);
   return (
     <div className="about__container container">

@@ -11,7 +11,7 @@ import "aos/dist/aos.css";
 
 function Works() {
   useEffect(() => {
-    AOS.init(400);
+    AOS.init(800);
   }, []);
   const worksData = [
     {
