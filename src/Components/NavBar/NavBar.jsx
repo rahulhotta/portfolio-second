@@ -38,7 +38,6 @@ function NavBar() {
           to="skills"
           spy={true}
           smooth={true}
-          offset={50}
           duration={800}
           activeClassName="active"
         >
