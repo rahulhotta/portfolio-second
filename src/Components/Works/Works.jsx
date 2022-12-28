@@ -29,8 +29,8 @@ function Works() {
       img: foodOrderApp,
       description:
         "It is a website which will help you to order delicious food.",
-      Link: "https://github.com/rahulhotta/Food-order-website.git",
-      Git: "https://food-order-website.pages.dev/"
+      Link: "https://food-order-website.pages.dev/",
+      Git: "https://github.com/rahulhotta/Food-order-website.git/"
     },
     {
       id: 3,
