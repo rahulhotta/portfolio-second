@@ -98,8 +98,3 @@ a {
   }
   
 }
-@media screen and (max-height: 700px){
-  .hero__left{
-    display: none;
-  }
-}
