@@ -14,7 +14,7 @@
 }
 
 .about__skills-logo-p2 {
-  color: rgb(120, 226, 255);
+  color: var(--secondary_fontColor);
 }
 
 .about__skills-list {
