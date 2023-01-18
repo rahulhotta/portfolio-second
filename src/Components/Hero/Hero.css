@@ -6,8 +6,7 @@ a {
   position: relative;
   display: flex;
   flex-direction: column;
-  font-family: 'Signika', sans-serif;
-  
+  font-family: "Signika", sans-serif;
 }
 .hero__left {
   display: flex;
@@ -29,14 +28,13 @@ a {
   background-color: rgb(214, 246, 255);
 }
 
-.hero__avatar:hover{
+.hero__avatar:hover {
   border: 2px solid var(--secondary_fontColor);
 }
 .hero__social-icon {
   margin: 10px;
   font-size: 1.4rem;
   color: var(--primary_fontColor);
-
 }
 .hero__social-icon:hover {
   color: var(--secondary_fontColor);
@@ -50,33 +48,33 @@ a {
   padding: 5px 12px;
   margin: 20px;
 }
-.hero__resume:hover{
-    background-color: var(--primary_fontColor);
-    color: var(--tertiary_fontColor) ;
-    font-weight: bold;
+.hero__resume:hover {
+  background-color: var(--primary_fontColor);
+  color: var(--tertiary_fontColor);
+  font-weight: bold;
 }
 
-.hero_element{
-    color: var(--primary_fontColor);
-    margin-top: 5px;
-    margin-bottom: 5px;
+.hero_element {
+  color: var(--primary_fontColor);
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .hero__my-position1 {
-    color: rgb(182, 182, 182);
-    font-size: 1.7rem;
+  color: rgb(182, 182, 182);
+  font-size: 1.7rem;
 }
-.hero__my-name1{
-    font-size: 2.5rem;
+.hero__my-name1 {
+  font-size: 2.5rem;
 }
 @media screen and (min-width: 780px) {
-.hero__container {
-  position: fixed;
-  left: 17px;
-  display: flex;
-  flex-direction: column;
-  height: 99vh;
-  font-family: 'Signika', sans-serif;
-}
+  .hero__container {
+    position: fixed;
+    left: 17px;
+    display: flex;
+    flex-direction: column;
+    height: 99vh;
+    font-family: "Signika", sans-serif;
+  }
   .hero__avatar {
     height: 10vw;
     width: 10vw;
@@ -96,5 +94,9 @@ a {
     border-bottom-left-radius: 50vw;
     border-bottom-right-radius: 50vw;
   }
-  
 }
+/* @media screen and (orientation: landscape) {
+  .hero__left {
+    display: none;
+  }
+} */

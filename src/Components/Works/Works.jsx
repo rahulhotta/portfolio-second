@@ -1,4 +1,4 @@
-import {React,useEffect} from "react";
+import { React, useEffect } from "react";
 import "./Works.css";
 import expenseTracker from "../../Images/expense-tracker.jpg";
 import foodOrderApp from "../../Images/food-order-app.jpg";
@@ -7,7 +7,6 @@ import notes from "../../Images/Notes-app.jpg";
 import CardUi from "../CardUi/CardUi";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 
 function Works() {
   useEffect(() => {
@@ -29,8 +28,8 @@ function Works() {
       img: foodOrderApp,
       description:
         "It is a website which will help you to order delicious food.",
-      Link: "https://food-order-website.pages.dev/",
-      Git: "https://github.com/rahulhotta/Food-order-website.git/"
+      Link: "https://github.com/rahulhotta/Food-order-website.git",
+      Git: "https://food-order-website.pages.dev/",
     },
     {
       id: 3,
@@ -54,7 +53,9 @@ function Works() {
   return (
     <div className="works__container container">
       <div className="works__heading">
-        <h1>MY <span className="works__works">WORKS</span></h1>
+        <h1>
+          MY <span className="works__works">WORKS</span>
+        </h1>
       </div>
       <div className="works__list">
         {worksData.map((work) => {
@@ -71,7 +72,6 @@ function Works() {
             </div>
           );
         })}
-
       </div>
     </div>
   );
