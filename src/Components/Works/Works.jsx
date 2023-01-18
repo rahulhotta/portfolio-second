@@ -42,12 +42,12 @@ function Works() {
     },
     {
       id: 4,
-      title: "Notes app",
+      title: "To do list",
       img: notes,
       description:
-        "It is a website which will help you to manage all your notes.",
-      Link: "https://upbeat-ritchie-c74b9f.netlify.app/",
-      Git: "https://github.com/rahulhotta/my-notes-app.git",
+        "It is a website which will help you to manage all your Tasks.",
+      Link: "https://to-do-list-a9x.pages.dev/",
+      Git: "https://github.com/rahulhotta/To-do-list.git",
     },
   ];
   return (
