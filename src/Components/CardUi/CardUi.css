@@ -1,0 +1,132 @@
+.card__container {
+  background-color: var(--primary_cardBg);
+  border: 2px solid white;
+  margin: 30px 20px;
+  border-radius: 10px;
+  max-width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+  background-color: var(--card_bg);
+
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+.card__container:hover {
+  transition: 0.3s;
+  translate: 0 -15px;
+  box-shadow: 5px 3px rgb(217 220 242 / 75%), 10px 6px rgb(44 217 255 / 50%),
+    15px 9px rgba(153, 239, 188, 0.592);
+}
+
+.card__text2 {
+  margin: 0 10px;
+}
+
+.card__site-img {
+  border-top-left-radius: 10px;
+
+  border-top-right-radius: 10px;
+  /* border-radius: 10px; */
+  filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+
+  width: 80vw;
+  margin: 0;
+}
+
+.card__link {
+  margin: 10px 20px;
+  background-color: var(--card_bg);
+  border: 2px solid white;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.card__link:hover {
+  background-color: white;
+  color: var(--card_bg);
+}
+
+.card__heading {
+  margin: 4px 0;
+  color: rgb(26, 230, 245);
+}
+.card__desc {
+  margin-bottom: 14px;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  /* display: none; */
+}
+.card__heading2 {
+  margin: 4px 0;
+  color: var(--secondary_fontColor);
+}
+.card__desc2 {
+  margin-bottom: 14px;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  /* display: none; */
+}
+
+.card__icon-container {
+  display: none;
+}
+
+@media screen and (min-width: 780px) {
+  .card__container {
+    max-width: 400px;
+    transition: 0.5s;
+    height: 200px;
+    /* transform: 
+      rotate(20deg)
+      skew(-10deg, -5deg); */
+    gap: 10px;
+  }
+  .card__link {
+    display: none;
+  }
+  .card__site-img {
+    width: 400px;
+    height: 200px;
+    margin: 0;
+  }
+  .card__text2 {
+    display: none;
+  }
+  .card__text {
+    margin: 0 10px;
+  }
+  .card__icon-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 3fr 1fr;
+    width: 400px ;
+    height: 200px ;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    background: rgb(192, 96, 0);
+    margin: 0;
+    border-radius: 10px;
+  
+  }
+
+  .card__icon {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  .card__icon:hover {
+    color: rgb(26, 230, 245);
+  }
+  .card__header:hover .card__site-img {
+    display: none;
+  }
+  .card__header:hover .card__icon-container {
+    display: flex;
+  }
+}

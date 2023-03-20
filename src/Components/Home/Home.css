@@ -1,0 +1,22 @@
+.home__container {
+  padding: 10vh 2vw;
+
+}
+.home__my-name2 {
+  font-size: 3.8rem;
+}
+.home__my-tite2 {
+  color: var(--secondary_fontColor);
+}
+.home__my-position2 {
+  color: rgb(182, 182, 182);
+  max-width: clamp(400px, 600px, 800px);
+  margin: 10px 20px;
+  font-size: 1.9rem;
+}
+@media screen and (min-width: 780px) {
+  .home__container {
+  padding: 0;
+
+}
+}
