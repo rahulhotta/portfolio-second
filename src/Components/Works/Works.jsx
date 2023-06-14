@@ -4,6 +4,7 @@ import expenseTracker from "../../Images/expense-tracker.jpg";
 import foodOrderApp from "../../Images/food-order-app.jpg";
 import libot from "../../Images/Libot.jpg";
 import notes from "../../Images/Notes-app.jpg";
+import DeCloud from "../../Images/De-cloud.jpg";
 import CardUi from "../CardUi/CardUi";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -24,12 +25,11 @@ function Works() {
     },
     {
       id: 2,
-      title: "Food order website",
-      img: foodOrderApp,
-      description:
-        "It is a website which will help you to order delicious food.",
-      Link: "https://github.com/rahulhotta/Food-order-website.git",
-      Git: "https://food-order-website.pages.dev/",
+      title: "DE Cloud",
+      img: DeCloud,
+      description: "It is a decentralised cloud storage system.",
+      Link: "https://de-cloud.netlify.app/",
+      Git: "https://github.com/ashusharma-git/de-cloud.git",
     },
     {
       id: 3,
